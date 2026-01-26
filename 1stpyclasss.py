@@ -158,3 +158,4 @@ cafeteria_menu = {"snacks": ["panipuri"], "drinks": ["coke"]}
 
 cafeteria_menu["drinks"].append("chiya")
 print(cafeteria_menu)
+# creation shrestha
