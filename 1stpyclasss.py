@@ -154,8 +154,16 @@
 # inventory.remove("mouse")
 # print(inventory.pop())
 
-cafeteria_menu = {"snacks": ["panipuri"], "drinks": ["coke"]}
+# cafeteria_menu = {"snacks": ["panipuri"], "drinks": ["coke"]}
 
-cafeteria_menu["drinks"].append("chiya")
-print(cafeteria_menu)
-# creation shrestha
+# cafeteria_menu["drinks"].append("chiya")
+# print(cafeteria_menu)
+
+
+def cube():
+    x = int(input("Enter 3:"))
+    ans = x * x * x
+    print(ans)
+
+
+cube()
