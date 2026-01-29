@@ -160,10 +160,77 @@
 # print(cafeteria_menu)
 
 
-def cube():
-    x = int(input("Enter 3:"))
-    ans = x * x * x
-    print(ans)
+# def cube():
+#     x = int(input("Enter 3:"))
+#     ans = x * x * x
+#     print(ans)
 
 
-cube()
+# cube()
+
+
+# def sum_all(*args):
+#     total = 0
+#     for num in args:
+#         total += num
+#     return total
+
+# result = sum_all(10, 10, 20, 30, 40)
+# print(result)
+
+
+# FILE HANDLING
+# file = open("test.txt", "w")
+# content = file.write("Hello World")
+# file.close()
+
+# with open("test.txt", "w") as f:
+#     f.write("Hello")
+
+# import csv
+
+# tour_price = [
+#     ["Country", "Destination", "Price"],
+#     ["Nepal", "Pokhara", "25000"],
+#     ["Germany", "Berlin", "4000000"],
+# ]
+
+# # open(file_name,operation,newline)
+# with open("tour_price.csv", "w", newline="") as file:
+#     writer = csv.writer(file)
+#     writer.writerows(tour_price)
+
+# # To read
+# with open("tour_price.csv", "r") as file:
+#     reader = csv.reader(file)
+#     for row in reader:
+#         print(row)
+
+
+# dictionary file
+# Dictwrite(file,fieldname)
+# import csv
+
+# customer_details = [
+#     {"name": "Creation", "age": "19", "order_quantity": "20", "product": "Shoes"},
+#     {"name": "Anuj", "age": "19", "order_quantity": "3", "product": "Bags"},
+# ]
+# with open("customers_details.csv", "w", newline="") as file:
+#     columns = ["name", "age", "order_quantity", "product"]
+#     writer = csv.DictWriter(file, fieldnames=columns)
+#     writer.writeheader()
+#     writer.writerows(customer_details)
+
+
+# JSON FILE
+
+# dump(data,file)
+import json
+
+tour_price = [
+    ["Country", "Destination", "Price"],
+    ["Nepal", "Pokhara", "25000"],
+    ["Germany", "Berlin", "4000000"],
+]
+with open("tour.json", "w") as file:
+    json.dump(tour_price, file)
