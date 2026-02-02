@@ -116,3 +116,48 @@ protected(_)
 Default/public
 
 """
+
+
+# class Person:
+#     def __init__(self, name, address, age):
+#         self.__name = name
+#         self.__age = age
+#         self.__address = address
+
+# p = Person()
+
+
+# class Vehicle:
+#     def __init__(self, speed=0):
+#         self._speed = speed
+
+
+# class Car(Vehicle):
+#     def accelerate(self):
+#         self._speed += 20
+#         print(self._speed)
+
+
+# c = Car(40)
+# c.accelerate()
+
+
+class SavingsAccount:
+    def __init__(self, balance):
+        self.__balance = balance
+
+    def withdraw(self, x):
+        if self.__balance < 500:
+            print("Transaction Denied")
+        else:
+            self.__balance = self.__balance - x
+
+    def getBalance(self):
+        print(self.__balance)
+
+
+a = int(input("Enter the balance"))
+x = int(input("enter the amount you want to transact"))
+s = SavingsAccount(a)
+s.withdraw(x)
+s.getBalance()
