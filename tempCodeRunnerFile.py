@@ -2,8 +2,14 @@
 # if x < 6 or x > 9:
 #     raise ValueError("THIS IS INCORRECT")
 
-x = []
-a = input("enter anything")
-x.append(a)
-print(len(x[0]))
-print(x)
+# x = []
+# a = input("enter anything")
+# x.append(a)
+# print(len(x[0]))
+# print(x)
+
+
+# from creation import welcome, creation
+
+# welcome()
+# print(creation)

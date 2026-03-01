@@ -56,8 +56,18 @@
 
 # Binary files
 # open(location,operation(r))
-with open("D:/projects/tour_price.csv", "rb") as file:
-    data = file.read()
+# with open("D:/projects/tour_price.csv", "rb") as file:
+#     data = file.read()
 
-with open("newpdf.pdf", "wb") as file:
-    file.write(data)
+# with open("newpdf.pdf", "wb") as file:
+#     file.write(data)
+
+# g = open("myfile.txt", "w")
+# content = g.write("HELLO WORLD")
+# f = open("myfile.txt", "r")
+# while True:
+#     line = f.readline()
+#     print(line)
+#     if not line:
+#         print(line, type(line))
+#         break

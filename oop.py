@@ -142,22 +142,22 @@ Default/public
 # c.accelerate()
 
 
-class SavingsAccount:
-    def __init__(self, balance):
-        self.__balance = balance
+# class SavingsAccount:
+#     def __init__(self, balance):
+#         self.__balance = balance
 
-    def withdraw(self, x):
-        if self.__balance < 500:
-            print("Transaction Denied")
-        else:
-            self.__balance = self.__balance - x
+#     def withdraw(self, x):
+#         if self.__balance < 500:
+#             print("Transaction Denied")
+#         else:
+#             self.__balance = self.__balance - x
 
-    def getBalance(self):
-        print(self.__balance)
+#     def getBalance(self):
+#         print(self.__balance)
 
 
-a = int(input("Enter the balance"))
-x = int(input("enter the amount you want to transact"))
-s = SavingsAccount(a)
-s.withdraw(x)
-s.getBalance()
+# a = int(input("Enter the balance"))
+# x = int(input("enter the amount you want to transact"))
+# s = SavingsAccount(a)
+# s.withdraw(x)
+# s.getBalance()

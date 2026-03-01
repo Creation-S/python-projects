@@ -225,12 +225,51 @@
 # JSON FILE
 
 # dump(data,file)
-import json
+# import json
 
-tour_price = [
-    ["Country", "Destination", "Price"],
-    ["Nepal", "Pokhara", "25000"],
-    ["Germany", "Berlin", "4000000"],
-]
-with open("tour.json", "w") as file:
-    json.dump(tour_price, file)
+# tour_price = [
+#     ["Country", "Destination", "Price"],
+#     ["Nepal", "Pokhara", "25000"],
+#     ["Germany", "Berlin", "4000000"],
+# ]
+# with open("tour.json", "w") as file:
+#     json.dump(tour_price, file)
+
+
+# LAMBDA FUNCTION
+
+# double = lambda x: x + x + x
+# print(double(6))
+
+
+# MAP
+# def cube(x):
+#     return x * x * x
+
+
+# print(cube(2))
+
+# l = [1, 2, 3, 5, 6, 7, 7]
+# newl = list(map(cube, l))
+# print(newl)
+
+
+# # FILTER
+# def filter_function(a):
+#     return a > 4
+
+
+# oldl = list(filter(filter_function, l))
+# print(oldl)
+# numbers = [1, 2, 3, 4, 5]
+
+# from functools import reduce
+
+
+# # numbers=[6,4,5,4]
+# def mysum(x, y):
+#     return x + y
+
+
+# sum = reduce(mysum, numbers)
+# print(sum)
